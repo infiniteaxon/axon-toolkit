@@ -85,6 +85,7 @@ while True:
             password()
         case "3":
             password()
+            loop()
         case "4":
             break
         case _:
