@@ -7,7 +7,7 @@ def munge():
     print("-------------------------------")
     source = input("Select a file above to Munge...")
     output = input("Please input the name of your desired output file (no extension needed)...")
-    os.system("python mungeit.py -l 9 -i " + source + " -o " + output + ".dict")
+    os.system("python mungeit.py -l 8 -i " + source + " -o " + output + ".dict")
     return
 
 
